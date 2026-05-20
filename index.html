@@ -430,8 +430,8 @@ const map = L.map('map', {
 const TibiaLayer = L.GridLayer.extend({
   createTile: function(coords) {
     const canvas = document.createElement('canvas');
-    canvas.width  = 257;
-    canvas.height = 257;
+    canvas.width  = 255;
+    canvas.height = 255;
     const ctx = canvas.getContext('2d');
 
     if (coords.z <= 0) {
