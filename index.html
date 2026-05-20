@@ -1,3 +1,39 @@
+<!--
+  ========================================
+  TibiaHunt — Monster Spawn Finder
+  ========================================
+
+  STRUCTURE:
+  - index.html  → main app (map, sidebar, search, markers)
+  - monsters.json → creature data (edit this to add monsters)
+  - tiles/      → floor 7 map tiles from TibiaMaps.io
+
+  HOW TO ADD A MONSTER:
+  Open monsters.json and follow this pattern:
+  {
+    "name": "Rotworm",
+    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif",
+    "spawns": [
+      { "x": 32369, "y": 32450, "floor": 7, "label": "Rookgaard Caves" }
+    ]
+  }
+
+  COORDINATES:
+  Get X,Y from tibiamaps.io URL bar e.g. #32369,32450,7
+
+  KNOWN COMMENTED OUT CODE:
+  - showMarkersFor() → pins on search, disabled intentionally
+  - hint.style display → explore re-enabling later
+
+  LAST UPDATED: May 2026
+  ========================================
+  upcoming projects:
+    Rework:
+    // showMarkersFor(filtered); // Pins showing on search instead of on spawn click
+    // hint.style.display = 'none'; // Explore this further at a later time
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -394,8 +430,8 @@ const map = L.map('map', {
 const TibiaLayer = L.GridLayer.extend({
   createTile: function(coords) {
     const canvas = document.createElement('canvas');
-    canvas.width  = 256;
-    canvas.height = 256;
+    canvas.width  = 257;
+    canvas.height = 257;
     const ctx = canvas.getContext('2d');
 
     if (coords.z <= 0) {
@@ -507,15 +543,15 @@ function renderList(query) {
              onclick="goToSpawn('${m.name}', ${i})">
           <span class="spawn-num">${i + 1}.</span>
           <span class="spawn-label">${s.label}</span>
-          <span class="spawn-floor">${s.floor === 0 ? 'Surface' : 'F' + s.floor}</span>
+          <span class="spawn-floor">${s.floor === 0 ? 'Surface' : 'Surface'}</span>
         </div>
       `).join('')}
     </div>
   `).join('');
 
   // Show all markers for all matching monsters
-  showMarkersFor(filtered);
-  hint.style.display = 'none';
+  //showMarkersFor(filtered);
+  //hint.style.display = 'none';
 }
 
 // ── Show all markers for a set of monsters ─────────────────────────
