@@ -398,22 +398,41 @@ const TibiaLayer = L.GridLayer.extend({
     canvas.height = 256;
     const ctx = canvas.getContext('2d');
 
-    const scale = Math.pow(2, -coords.z);
-    const tilesPerSide = scale;
-    const tileDrawSize = 256 / tilesPerSide;
+    if (coords.z <= 0) {
+      // Zoomed out: draw multiple tiles onto one canvas
+      const scale = Math.pow(2, -coords.z);
+      const tileDrawSize = 256 / scale;
 
-    for (let dy = 0; dy < tilesPerSide; dy++) {
-      for (let dx = 0; dx < tilesPerSide; dx++) {
-        const tibiaX = (coords.x * tilesPerSide + dx) * 256;
-        const tibiaY = (coords.y * tilesPerSide + dy) * 256;
+      for (let dy = 0; dy < scale; dy++) {
+        for (let dx = 0; dx < scale; dx++) {
+          const tibiaX = (coords.x * scale + dx) * 256;
+          const tibiaY = (coords.y * scale + dy) * 256;
 
-        if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
-          const img = new Image();
-          img.onload = () => {
-            ctx.drawImage(img, dx * tileDrawSize, dy * tileDrawSize, tileDrawSize, tileDrawSize);
-          };
-          img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+          if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
+            const img = new Image();
+            img.onload = () => {
+              ctx.drawImage(img, dx * tileDrawSize, dy * tileDrawSize, tileDrawSize, tileDrawSize);
+            };
+            img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+          }
         }
+      }
+    } else {
+      // Zoomed in: draw portion of the parent tile scaled up
+      const scale = Math.pow(2, coords.z);
+      const tibiaX = Math.floor(coords.x / scale) * 256;
+      const tibiaY = Math.floor(coords.y / scale) * 256;
+      const srcX = (coords.x % scale) * (256 / scale);
+      const srcY = (coords.y % scale) * (256 / scale);
+      const srcSize = 256 / scale;
+
+      if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
+        const img = new Image();
+        img.onload = () => {
+          ctx.imageSmoothingEnabled = false;
+          ctx.drawImage(img, srcX, srcY, srcSize, srcSize, 0, 0, 256, 256);
+        };
+        img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
       }
     }
 
