@@ -13,46 +13,84 @@
     { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1" }
   ]},
   { "name": "Bandit", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bandit.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
+    { "x": 32555, "y": 32679, "floor": 7, "label": "Tiquanda Bandit Caves - Port Hope", "note": "Can contain Rare boss Smuggler Baron Silvertoe" },
+    { "x": 32643, "y": 32222, "floor": 7, "label": "Outlaw Camp - Venore", "note": "Scattered on surface" },
+    { "x": 32359, "y": 32282, "floor": 7, "label": "Thais Bandit Cave", "note": "Smallest spawn" },
+    { "x": 32534, "y": 31629, "floor": 7, "label": "The Cave - North of Carlin", "note": "Also contains pirates" }
   ]},
   { "name": "Barbarian Brutetamer", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Brutetamer.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32028, "y": 31397, "floor": 7, "label": "Krimhorn", "note": "Biggest Spawn" },
+    { "x": 32003, "y": 31228, "floor": 7, "label": "Bittermor", "note": "Second biggest spawn" },
+    { "x": 32135, "y": 31332, "floor": 7, "label": "Ragnir", "note": "Third biggest spawn" },
+    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
   ]},
   { "name": "Barbarian Headsplitter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Headsplitter.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32028, "y": 31397, "floor": 7, "label": "Krimhorn", "note": "Biggest Spawn" },
+    { "x": 32003, "y": 31228, "floor": 7, "label": "Bittermor", "note": "Second biggest spawn" },
+    { "x": 32135, "y": 31332, "floor": 7, "label": "Ragnir", "note": "Third biggest spawn" },
+    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
   ]},
   { "name": "Barbarian Skullhunter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Skullhunter.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32028, "y": 31397, "floor": 7, "label": "Krimhorn", "note": "Biggest Spawn" },
+    { "x": 32003, "y": 31228, "floor": 7, "label": "Bittermor", "note": "Second biggest spawn" },
+    { "x": 32135, "y": 31332, "floor": 7, "label": "Ragnir", "note": "Third biggest spawn" },
+    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
   ]},
   { "name": "Bear", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bear.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 33117, "y": 31781, "floor": 7, "label": "Edron Troll Cave", "note": "Located -2" },
+    { "x": 32643, "y": 32222, "floor": 7, "label": "Outlaw Camp - Venore", "note": "Scattered on surface" },
+    { "x": 32360, "y": 32371, "floor": 7, "label": "White Flower Temple - Thais", "note": "Its to the east right near the temple, stairs down." },
+    { "x": 32754, "y": 31928, "floor": 7, "label": "Poacher Caves - Venore", "note": "-2 -3, & -4 in other cave. Get to Poacher cave near Lukosch at Kazordoon Cart system " }
   ]},
   { "name": "Blood Crab", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Crab.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32392, "y": 32943, "floor": 7, "label": "Laguna Islands", "note": "Located in -2, -3 " },
+    { "x": 33550, "y": 31869, "floor": 7, "label": "Seacrest Grounds - Rathleton", "note": "-1" },
+    { "x": 32612, "y": 32704, "floor": 7, "label": "Tiquanda/Reptile and Crustacean Caves - Port Hope", "note": "Find them in -2, -3" },
+    { "x": 32156, "y": 32948, "floor": 7, "label": "Treasure Island - Liberty Bay", "note": "Each time you want to access the caverns you have to do the Treasure Island Quest." }
   ]},
   { "name": "Boar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boar.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32754, "y": 31928, "floor": 7, "label": "Poacher Caves - Venore", "note": "-2 & -3, Get to Poacher cave near Lukosch at Kazordoon Cart system " },
+    { "x": 32643, "y": 32222, "floor": 7, "label": "Outlaw Camp - Venore", "note": "Scattered on surface" }
   ]},
   { "name": "Bonelord", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonelord.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32159, "y": 32782, "floor": 7, "label": "Vandura Bonelord Cave", "note": "Biggest Spawn" },
+    { "x": 32478, "y": 31179, "floor": 7, "label": "Hellheim -4, -5", "note": "Level 5 has stronger monsters" },
+    { "x": 32853, "y": 32669, "floor": 7, "label": "Deeper Banuta - Port Hope", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" }
+    { "x": 32839, "y": 32533, "floor": 9, "label": "Deeper Banuta - Spawn 2", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" }
+    { "x": 32393, "y": 32118, "floor": 7, "label": "Altar Lake - Thais", "note": "Only 4 in the cave" },
+    { "x": 32359, "y": 32721, "floor": 7, "label": "Cult Caves - Liberty Bay", "note": "All floors" },
   ]},
   { "name": "Carrion Worm", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carrion_Worm.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 33309, "y": 32329, "floor": 7, "label": "Darashia Rotworm Caves - 1", "note": "" },
+    { "x": 33225, "y": 32301, "floor": 7, "label": "Darashia Rotworm Caves - 2", "note": "" },
+    { "x": 33133, "y": 32433, "floor": 7, "label": "Darashia Rotworm Caves - 3", "note": "" },
+    { "x": 32221, "y": 32859, "floor": 7, "label": "Vandura Rotworm Cave - Liberty Bay", "note": "Also home of Rotworm Queen." },
+    { "x": 32658, "y": 32012, "floor": 13, "label": "Drillworm Caves - Kazrdoon", "note": "The Drillworm Caves can be found in the southern part of the Kazordoon city mine, near the Steamship" }
   ]},
   { "name": "Centipede", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Centipede.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32807, "y": 32542, "floor": 7, "label": "Between Port Hope & Banuta", "note": "" },
+    { "x": 32910, "y": 32515, "floor": 7, "label": "In the northern part of Tiquanda", "note": "Near Kais (Blessing: Blood of the Mountain)" }
   ]},
   { "name": "Chakoya Toolshaper", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Toolshaper.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32301, "y": 31083, "floor": 7, "label": "Inukaya - Nibelor - Svargrond", "note": "To use the sled from Nibelor you must finish The Ice Islands Quest mission 5. You also need to carry Ham with you." },
+    { "x": 32623, "y": 32584, "floor": 7, "label": "Chakoya Iceberg", "note": "" },
+    { "x": 32060, "y": 31034, "floor": 7, "label": "Chyllfroest", "note": "" }
   ]},
   { "name": "Chakoya Tribewarden", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Tribewarden.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32301, "y": 31083, "floor": 7, "label": "Inukaya - Nibelor - Svargrond", "note": "To use the sled from Nibelor you must finish The Ice Islands Quest mission 5. You also need to carry Ham with you." },
+    { "x": 32623, "y": 32584, "floor": 7, "label": "Chakoya Iceberg", "note": "" },
+    { "x": 32060, "y": 31034, "floor": 7, "label": "Chyllfroest", "note": "" }
   ]},
   { "name": "Chakoya Windcaller", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Windcaller.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32301, "y": 31083, "floor": 7, "label": "Inukaya - Nibelor - Svargrond", "note": "To use the sled from Nibelor you must finish The Ice Islands Quest mission 5. You also need to carry Ham with you." },
+    { "x": 32623, "y": 32584, "floor": 7, "label": "Chakoya Iceberg", "note": "" },
+    { "x": 32060, "y": 31034, "floor": 7, "label": "Chyllfroest", "note": "" }
   ]},
   { "name": "Cobra", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 33142, "y": 32838, "floor": 7, "label": "Ankrahmun Library Tomb", "note": "" },
+    { "x": 33233, "y": 32705, "floor": 7, "label": "Tarpit Tomb - Ankrahmun", "note": "1 square" },
+    { "x": 33132, "y": 32568, "floor": 7, "label": "Mountain Tomb - Ankrahmun", "note": "North West" }
   ]},
   { "name": "Corym Charlatan", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Charlatan.gif", "loot": [], "spawns": [
     { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
