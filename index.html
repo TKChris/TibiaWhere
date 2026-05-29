@@ -512,6 +512,7 @@ function makeIcon(active = false) {
 let monsters = [];
 let markers  = [];
 let activeSpawnKey = null; // "MonsterName-spawnIndex"
+let selectedMonster = null; // when a monster header is clicked
 
 // ── Render sidebar list ────────────────────────────────────────────
 function renderList(query) {
@@ -535,9 +536,14 @@ function renderList(query) {
     return;
   }
 
-  list.innerHTML = filtered.map(m => `
+   // If a monster is selected, only show that one
+  const display = selectedMonster
+    ? filtered.filter(m => m.name === selectedMonster)
+    : filtered;
+
+  list.innerHTML = display.map(m => `
     <div class="monster-group">
-      <div class="monster-group-header">
+      <div class="monster-group-header" onclick="selectMonsterHeader('${m.name}')" style="cursor:pointer;">
         <img class="monster-icon"
              src="${m.image}"
              onerror="this.style.opacity='0.25'"
@@ -550,11 +556,28 @@ function renderList(query) {
              onclick="goToSpawn('${m.name}', ${i})">
           <span class="spawn-num">${i + 1}.</span>
           <span class="spawn-label">${s.label}</span>
-          <span class="spawn-floor">${s.floor === 0 ? 'Surface' : 'Surface'}</span>
+          <span class="spawn-floor">Surface</span>
         </div>
       `).join('')}
     </div>
   `).join('');
+
+  // Show markers only for selected monster
+  if (selectedMonster) {
+    const selected = filtered.filter(m => m.name === selectedMonster);
+    showMarkersFor(selected);
+    hint.style.display = 'none';
+    if (selected.length) {
+      const bounds = selected[0].spawns
+        .filter(s => s.x !== 0 && s.y !== 0)
+        .map(s => tibiaToLL(s.x, s.y));
+      if (bounds.length === 1) map.setView(bounds[0], 0);
+      else if (bounds.length > 1) map.fitBounds(L.latLngBounds(bounds), { padding: [60, 60] });
+    }
+  } else {
+    markers.forEach(m => map.removeLayer(m));
+    markers = [];
+  }
 
   // Show all markers for all matching monsters
   //showMarkersFor(filtered);
@@ -580,6 +603,13 @@ function showMarkersFor(monsterArr) {
       markers.push(marker);
     });
   });
+}
+
+// ── Select monster header ──────────────────────────────────────────
+function selectMonsterHeader(monsterName) {
+  selectedMonster = monsterName;
+  activeSpawnKey = null;
+  renderList(document.getElementById('search').value);
 }
 
 // ── Go to individual spawn ─────────────────────────────────────────
@@ -621,6 +651,7 @@ function goToSpawn(monsterName, spawnIndex) {
 // ── Search input ───────────────────────────────────────────────────
 document.getElementById('search').addEventListener('input', function () {
   activeSpawnKey = null;
+  selectedMonster = null;
   renderList(this.value);
 });
 
