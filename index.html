@@ -615,6 +615,7 @@ function selectMonsterHeader(monsterName) {
 // ── Go to individual spawn ─────────────────────────────────────────
 function goToSpawn(monsterName, spawnIndex) {
   activeSpawnKey = monsterName + '-' + spawnIndex;
+  selectedMonster = monsterName;
 
   const monster = monsters.find(m => m.name === monsterName);
   if (!monster) return;
@@ -622,31 +623,31 @@ function goToSpawn(monsterName, spawnIndex) {
   const spawn = monster.spawns[spawnIndex];
   const ll = tibiaToLL(spawn.x, spawn.y);
 
-  // Re-render markers so active one gets highlighted icon
-  const q = document.getElementById('search').value;
-  const filtered = monsters.filter(m => m.name.toLowerCase().includes(q.toLowerCase()));
-  const toShow = filtered.filter(m => m.name === monsterName);
-  showMarkersFor(toShow);
+  // Clear old markers and show only this monster's markers
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
 
-  // Re-render list to update active class
-  renderList(q);
+  monster.spawns.forEach((s, i) => {
+    const sll = tibiaToLL(s.x, s.y);
+    const isActive = i === spawnIndex;
+    const marker = L.marker(sll, { icon: makeIcon(isActive) }).addTo(map);
+    marker.bindPopup(`
+      <div class="popup-name">${monster.name}</div>
+      <div class="popup-loc">📍 ${s.label}</div>
+      ${s.note ? `<div class="popup-note">💬 ${s.note}</div>` : ''}
+      <div class="popup-coords">${s.x}, ${s.y} · Floor ${s.floor}</div>
+    `);
+    markers.push(marker);
+  });
 
-  // Zoom into exact spawn tile
+  // Re-render list
+  renderList(document.getElementById('search').value);
+
+  // Zoom to clicked spawn
   map.setView(ll, 0);
 
-  // Open popup on that marker
-  const matchMarker = markers.find((_, idx) => {
-    // Find the marker index matching this monster+spawn
-    let count = 0;
-    for (const m of filtered) {
-      for (let i = 0; i < m.spawns.length; i++) {
-        if (m.name === monsterName && i === spawnIndex) return idx === count;
-        count++;
-      }
-    }
-    return false;
-  });
-  if (matchMarker) matchMarker.openPopup();
+  // Open popup on active marker
+  markers[spawnIndex].openPopup();
 }
 
 // ── Search input ───────────────────────────────────────────────────
