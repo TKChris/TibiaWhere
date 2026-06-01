@@ -489,7 +489,7 @@ function tibiaToLL(x, y) {
 // ── Map init ───────────────────────────────────────────────────────
 const map = L.map('map', {
   crs: L.CRS.Simple,
-  minZoom: -2,
+  minZoom: -1,
   maxZoom: 2,
   zoomControl: true,
   attributionControl: false,
@@ -592,7 +592,10 @@ function renderList(query) {
   document.querySelector('.sidebar').classList.add('mobile-open');
 
 
-  const filtered = monsters.filter(m => m.name.toLowerCase().includes(q));
+  const filtered = monsters.filter(m => 
+  m.name.toLowerCase().includes(q) &&
+  m.spawns.some(s => s.x !== 0 && s.y !== 0)
+  );
 
   if (!filtered.length) {
     list.innerHTML = '<div class="no-results">No creatures found.</div>';
@@ -630,13 +633,13 @@ function renderList(query) {
     const selected = filtered.filter(m => m.name === selectedMonster);
     showMarkersFor(selected);
     hint.style.display = 'none';
-    if (selected.length) {
+      if (selected.length && !activeSpawnKey) {
       const bounds = selected[0].spawns
         .filter(s => s.x !== 0 && s.y !== 0)
         .map(s => tibiaToLL(s.x, s.y));
       if (bounds.length === 1) map.setView(bounds[0], 0);
       else if (bounds.length > 1) map.fitBounds(L.latLngBounds(bounds), { padding: [60, 60] });
-    }
+  }
   } else {
     markers.forEach(m => map.removeLayer(m));
     markers = [];

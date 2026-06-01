@@ -142,6 +142,10 @@
   { "name": "Deepling Brawler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Brawler.gif", "loot": [], "spawns": [
     { "x": 33514, "y": 31324, "floor": 7, "label": "Fiehibha", "note": "Accessed through Grey Island, Access to this area is given through the Liquid Black Quest." }
   ]},
+  { "name": "Deepsea Blood Crab ", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepsea_Blood_Crab.gif", "loot": [], "spawns": [
+    { "x": 31945, "y": 31045, "floor": 7, "label": "Sea Serpent Area - Svargrond", "note": "Part of (The Hunt for the Sea Serpent Quest) - You will need Diving Equipment " },
+    { "x": 33550, "y": 31869, "floor": 7, "label": "Seacrest Grounds - Rathleton", "note": "You can arrive by talking to Mr Brandon west of Rathleton - You will need Diving Equipment" }
+  ]},
   { "name": "Dwarf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf.gif", "loot": [], "spawns": [
     { "x": 32551, "y": 31930, "floor": 7, "label": "The Mines - Kazordoon", "note": "Get a ticket and go to west cart located with Pukosch, head down into the mines and bring Key 3802 for Mine Hub deeper below. " },
     { "x": 32978, "y": 32661, "floor": 7, "label": "Tiquanda Dwarf Cave - Port Hope", "note": "Right next to Azuras castle" },
@@ -292,6 +296,15 @@
     { "x": 33519, "y": 31258, "floor": 7, "label": "The Hive - Grey Island", "note": "" },
     { "x": 32163, "y": 32838, "floor": 7, "label": "Hive Outpost - Liberty Bay", "note": "Requires Hive Outpost Mini World Change" }
   ]},
+  { "name": "Infernoid Soul", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernoid_Soul.gif", "loot": [], "spawns": [
+    { "x": 31962, "y": 31898, "floor": 7, "label": "Crimson Court - Targuna", "note": "Head to +2 and take the purple flame portal to the fire cave. Dont forget to do the mission from Emiliana on +1" }
+  ]},
+  { "name": "Infernoid Blob", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernoid_Blob.gif", "loot": [], "spawns": [
+    { "x": 31962, "y": 31898, "floor": 7, "label": "Crimson Court - Targuna", "note": "Head to +2 and take the purple flame portal to the fire cave. Dont forget to do the mission from Emiliana on +1" }
+  ]},
+  { "name": "Infernoid Spiritual", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernoid_Spiritual.gif", "loot": [], "spawns": [
+    { "x": 31962, "y": 31898, "floor": 7, "label": "Crimson Court - Targuna", "note": "Head to +2 and take the purple flame portal to the fire cave. Dont forget to do the mission from Emiliana on +1" }
+  ]},
   { "name": "Kongra", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kongra.gif", "loot": [], "spawns": [
     { "x": 32807, "y": 32542, "floor": 7, "label": "Banuta", "note": "Scattered on surface and +1 & -1, -2" }
   ]},
@@ -323,6 +336,10 @@
   { "name": "Lizard Sentinel", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Sentinel.gif", "loot": [], "spawns": [
     { "x": 32952, "y": 32855, "floor": 7, "label": "Chor - Port Hope", "note": "" },
     { "x": 33315, "y": 32675, "floor": 7, "label": "Forbidden Temple - Ankrahmun", "note": "" }
+  ]},
+  { "name": "Lizard Swordmaster", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Swordmaster.gif", "loot": [], "spawns": [
+    { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Lizard Templar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Templar.gif", "loot": [], "spawns": [
     { "x": 32952, "y": 32855, "floor": 7, "label": "Chor - Port Hope", "note": "" },
@@ -409,6 +426,9 @@
     { "x": 32097, "y": 32631, "floor": 7, "label": "Goroma", "note": "Scattered on surface" },
     { "x": 32020, "y": 32821, "floor": 7, "label": "Nagor Undead Cave - Liberty Bay", "note": "The Nargor Undead Cave can be found on Nargor, by going south from Sebastian's boat. Accessed via the Meriana Quest." },
     { "x": 32156, "y": 32948, "floor": 7, "label": "Treasure Island - Liberty Bay ", "note": "" }
+  ]},
+  { "name": "Pirate Gunner", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Gunner.gif", "loot": [], "spawns": [
+    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." }
   ]},
   { "name": "Pirate Navigator", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif", "loot": [], "spawns": [
     { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." }
