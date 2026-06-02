@@ -495,6 +495,7 @@ const map = L.map('map', {
   attributionControl: false,
 });
 
+const tileCache = {};
 const TibiaLayer = L.GridLayer.extend({
   createTile: function(coords) {
     const canvas = document.createElement('canvas');
@@ -513,11 +514,17 @@ const TibiaLayer = L.GridLayer.extend({
           const tibiaY = (coords.y * scale + dy) * 256;
 
           if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
+            const key = `${tibiaX}_${tibiaY}`;
             const img = new Image();
-            img.onload = () => {
-              ctx.drawImage(img, dx * tileDrawSize, dy * tileDrawSize, tileDrawSize, tileDrawSize);
-            };
-            img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+            if (tileCache[key]) {
+              ctx.drawImage(tileCache[key], dx * tileDrawSize, dy * tileDrawSize, tileDrawSize, tileDrawSize);
+            } else {
+              img.onload = () => {
+                tileCache[key] = img;
+                ctx.drawImage(img, dx * tileDrawSize, dy * tileDrawSize, tileDrawSize, tileDrawSize);
+              };
+              img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+            }
           }
         }
       }
@@ -531,12 +538,19 @@ const TibiaLayer = L.GridLayer.extend({
       const srcSize = 256 / scale;
 
       if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
+        const key = `${tibiaX}_${tibiaY}`;
         const img = new Image();
-        img.onload = () => {
+        if (tileCache[key]) {
           ctx.imageSmoothingEnabled = false;
-          ctx.drawImage(img, srcX, srcY, srcSize, srcSize, 0, 0, 256, 256);
-        };
-        img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+          ctx.drawImage(tileCache[key], srcX, srcY, srcSize, srcSize, 0, 0, 256, 256);
+        } else {
+          img.onload = () => {
+            tileCache[key] = img;
+            ctx.imageSmoothingEnabled = false;
+            ctx.drawImage(img, srcX, srcY, srcSize, srcSize, 0, 0, 256, 256);
+          };
+          img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+        }
       }
     }
 
@@ -545,13 +559,13 @@ const TibiaLayer = L.GridLayer.extend({
 });
 
 new TibiaLayer({
-  minZoom: -2,
+  minZoom: -1,
   maxZoom: 2,
   tileSize: 256,
   noWrap: true,
-  keepBuffer: 8,
+  keepBuffer: 16,
   updateWhenZooming: false,
-  updateWhenIdle: true,
+  updateWhenIdle: false,
 }).addTo(map);
 
 map.setView(tibiaToLL(32628, 32374), 0);
