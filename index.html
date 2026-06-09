@@ -720,12 +720,12 @@ function goToSpawn(monsterName, spawnIndex) {
     markers.push(marker);
   });
 
-  // Re-render list to update active highlight — pass spawnIndex to force update
+  // Always pan and zoom to exact spawn location first
+  map.setView(ll, 0, { animate: false });
+
+  // Then re-render list to update active highlight
   const q = document.getElementById('search').value;
   renderList(q);
-
-  // Always pan and zoom to exact spawn location
-  map.setView(ll, 0, { animate: true });
 
   // Open popup on active marker
   markers[spawnIndex].openPopup();
