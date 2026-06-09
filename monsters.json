@@ -317,6 +317,7 @@
   ]},
   { "name": "Leaf Golem", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Leaf_Golem.gif", "loot": [], "spawns": [
     { "x": 33338, "y": 31972, "floor": 7, "label": "Lair of the Treeling Witch - Cormaya/Edron", "note": "" },
+    { "x": 33264, "y": 32014, "floor": 7, "label": "Dryad Gardens - Cormaya", "note": "" },
     { "x": 32444, "y": 31718, "floor": 7, "label": "Firest Fury Camp - Carlin", "note": "Straight North of the city" },
     { "x": 32648, "y": 31732, "floor": 7, "label": "Forsaken Mine - Ab'Dendriel", "note": "This mine contains Forest Furies, Leaf Golems and Wilting Leaf Golems." }
   ]},
@@ -348,6 +349,11 @@
   { "name": "Mammoth", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mammoth.gif", "loot": [], "spawns": [
     { "x": 32230, "y": 31016, "floor": 7, "label": "Mammoth Shearing Factory - Svargrond", "note": "To get to the factory, Go 1 step below carpet in Svargrond, head north east" },
     { "x": 32043, "y": 31288, "floor": 7, "label": "Southern Svargrond Surface", "note": "All over the Zone, also +1 Between Svargrond and Southern Surface" }
+  ]},
+  { "name": "Marsh Stalker", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Marsh_Stalker.gif", "loot": [], "spawns": [
+    { "x": 32924, "y": 32148, "floor": 7, "label": "Salamander Cave - Venore", "note": "Right next to South gate entrence" },
+    { "x": 33264, "y": 32014, "floor": 7, "label": "Dryad Gardens - Cormaya", "note": "" },
+    { "x": 32999, "y": 32151, "floor": 7, "label": "City Swamp - Venore", "note": "Scattered on surface" }
   ]},
   { "name": "Mercury Blob", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mercury_Blob.gif", "loot": [], "spawns": [
     { "x": 32677, "y": 31132, "floor": 7, "label": "Alchemist Quarter - Yalahar", "note": "Ground Floor, Upper Floor and Towers (Kill Diseased bosses while here)" }
@@ -560,15 +566,15 @@
   ]},
   { "name": "Tiger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif", "loot": [], "spawns": [
     { "x": 32769, "y": 32660, "floor": 7, "label": "Tiquanda — West Surface", "note": "2-3 near pin" },
-    { "x": 32850, "y": 32700, "floor": 7, "label": "Tiquanda — East Surface", "note": "2-3 near pin" }
+    { "x": 32850, "y": 32700, "floor": 7, "label": "Tiquanda — East Surface", "note": "2-3 near pin" },
+    { "x": 32319, "y": 32559, "floor": 7, "label": "Sabrehaven - Liberty Bay", "note": "Worth Checking, but not always there." }
   ]},
   { "name": "Toad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Toad.gif", "loot": [], "spawns": [
-    { "x": 32392, "y": 32943, "floor": 7, "label": "Laguna Islands", "note": "Scattered on all islands" },
+    { "x": 32392, "y": 32943, "floor": 7, "label": "Laguna Islands", "note": "Requires / The Shattered Isles Quest / They are scattered on all islands" },
     { "x": 32677, "y": 31231, "floor": 7, "label": "Arena and Zoo Quarter - Yalahar", "note": "Few spread out in the quarter" },
     { "x": 32726, "y": 32794, "floor": 7, "label": "Tiquanda/Tarantula Caves 1 - Port Hope", "note": "" },
     { "x": 32758, "y": 32792, "floor": 7, "label": "Tiquanda/Tarantula Caves 2 - Port Hope", "note": "" },
-    { "x": 32818, "y": 32810, "floor": 7, "label": "Tiquanda/Tarantula Caves 3 - Port Hope", "note": "" },
-    { "x": 32776, "y": 32686, "floor": 7, "label": "Tiquanda/Tarantula Caves 4 - Port Hope", "note": "" }
+    { "x": 32776, "y": 32686, "floor": 7, "label": "Tiquanda/Tarantula Caves 3 - Port Hope", "note": "" }
   ]},
   { "name": "Tortoise", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tortoise.gif", "loot": [], "spawns": [
     { "x": 32613, "y": 32704, "floor": 7, "label": "Tiquanda/Reptile and Crustacean Caves - Port Hope", "note": "Straight North of the city" },
@@ -584,6 +590,10 @@
   { "name": "War Wolf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/War_Wolf.gif", "loot": [], "spawns": [
     { "x": 32930, "y": 31774, "floor": 7, "label": "Ulderek's Rock - Kazordoon", "note": "Inside the Orc Kings chambers" },
     { "x": 32324, "y": 32039, "floor": 7, "label": "Orc Peninsula - Carlin", "note": "Small spawn" }
+  ]},
+  { "name": "White Tiger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Tiger.gif", "loot": [], "spawns": [
+    { "x": 32633, "y": 32113, "floor": 7, "label": "White Tiger - Kazordoon", "note": "There are almost none of these in the game in this location" },
+    { "x": 33025, "y": 32930, "floor": 7, "label": "Oskayaat", "note": "Gain access to Oskayaat through the Grimvale Quest" }
   ]},
   { "name": "Wild Warrior", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Warrior.gif", "loot": [], "spawns": [
     { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },

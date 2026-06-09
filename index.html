@@ -168,7 +168,7 @@
     #map {
       width: 100%;
       height: 100%;
-      background: #0d0a07;
+      background: #4a80b4;
     }
 
     #map-hint {
@@ -323,7 +323,7 @@
     }
 
     /* ── Leaflet overrides ── */
-    .leaflet-container { background: #0d0a07; }
+    .leaflet-container { background: #4a80b4; }
 
     .leaflet-popup-content-wrapper {
       background: var(--surface);
@@ -720,11 +720,12 @@ function goToSpawn(monsterName, spawnIndex) {
     markers.push(marker);
   });
 
-  // Re-render list
-  renderList(document.getElementById('search').value);
+  // Re-render list to update active highlight — pass spawnIndex to force update
+  const q = document.getElementById('search').value;
+  renderList(q);
 
-  // Zoom to clicked spawn
-  map.setView(ll, 0);
+  // Always pan and zoom to exact spawn location
+  map.setView(ll, 0, { animate: true });
 
   // Open popup on active marker
   markers[spawnIndex].openPopup();
