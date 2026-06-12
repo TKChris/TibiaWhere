@@ -168,7 +168,7 @@
     #map {
       width: 100%;
       height: 100%;
-      background: #4a80b4;
+      background: #34679a;
     }
 
     #map-hint {
@@ -323,7 +323,7 @@
     }
 
     /* ── Leaflet overrides ── */
-    .leaflet-container { background: #4a80b4; }
+    .leaflet-container { background: #34679a; }
 
     .leaflet-popup-content-wrapper {
       background: var(--surface);
@@ -569,7 +569,7 @@ new TibiaLayer({
 }).addTo(map);
 
 map.setView(tibiaToLL(32628, 32374), 0);
-map.setMaxBounds([[-33280, 31488], [-30720, 34048]]);
+map.setMaxBounds([[-33024, 31744], [-30976, 33792]]);
 map.options.maxBoundsViscosity = 0.5;
 
 // ── Marker icon ────────────────────────────────────────────────────
@@ -735,17 +735,31 @@ function goToSpawn(monsterName, spawnIndex) {
 document.getElementById('search').addEventListener('input', function () {
   activeSpawnKey = null;
   selectedMonster = null;
-  if (!this.value) document.querySelector('.sidebar').classList.remove('mobile-open');
+  if (!this.value) {
+    document.querySelector('.sidebar').classList.remove('mobile-open');
+    history.replaceState(null, '', window.location.pathname);
+  } else {
+    history.replaceState(null, '', `?q=${encodeURIComponent(this.value)}`);
+  }
   renderList(this.value);
 });
 
 // ── Load data ──────────────────────────────────────────────────────
 fetch('monsters.json') 
   .then(r => r.json()) 
-  .then(data => { monsters = data; }) 
+  .then(data => {
+    monsters = data;
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) {
+      document.getElementById('search').value = q;
+      renderList(q);
+    }
+  }) 
   .catch(() => { 
     console.log('Failed to load monsters.json'); 
   });
+
 </script>
 </body>
 </html>

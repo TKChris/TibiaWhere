@@ -90,7 +90,8 @@
   { "name": "Cobra", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra.gif", "loot": [], "spawns": [
     { "x": 33142, "y": 32838, "floor": 7, "label": "Ankrahmun Library Tomb", "note": "" },
     { "x": 33233, "y": 32705, "floor": 7, "label": "Tarpit Tomb - Ankrahmun", "note": "1 square" },
-    { "x": 33132, "y": 32568, "floor": 7, "label": "Mountain Tomb - Ankrahmun", "note": "North West" }
+    { "x": 33132, "y": 32568, "floor": 7, "label": "Mountain Tomb - Ankrahmun", "note": "North West" },
+    { "x": 32908, "y": 32822, "floor": 7, "label": "North of Chor - Port Hope", "note": "Both North of and inside Chor." }
   ]},
   { "name": "Corym Charlatan", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Charlatan.gif", "loot": [], "spawns": [
     { "x": 33073, "y": 32085, "floor": 7, "label": "Corym Cave - Venore", "note": "Biggest spawn with 3 floors" },
@@ -266,12 +267,12 @@
   { "name": "Goblin Assassin", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Assassin.gif", "loot": [], "spawns": [
     { "x": 32569, "y": 31803, "floor": 7, "label": "Femor Hills - Ab'dendriel", "note": " All floors" },
     { "x": 33108, "y": 31850, "floor": 7, "label": "Goblin Cave - Edron", "note": "" },
-    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "Few" }
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
   ]},
   { "name": "Goblin Scavenger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Scavenger.gif", "loot": [], "spawns": [
     { "x": 32569, "y": 31803, "floor": 7, "label": "Femor Hills - Ab'dendriel", "note": " All floors" },
     { "x": 33108, "y": 31850, "floor": 7, "label": "Goblin Cave - Edron", "note": "" },
-    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "Few" }
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
   ]},
   { "name": "Gozzler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gozzler.gif", "loot": [], "spawns": [
     { "x": 32887, "y": 31094, "floor": 7, "label": "Magician Quarter - Yalahar", "note": "Spread out into various sections and floors." },
@@ -284,7 +285,7 @@
     { "x": 33164, "y": 31638, "floor": 7, "label": "Hero Cave - Edron", "note": "Few on surface" },
     { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter", "note": "Scattered on surface and roofs" }
   ]},
-  { "name": "Hyena", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hyena.gif", "loot": [], "spawns": [
+  { "name": "Hyaena", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hyaena.gif", "loot": [], "spawns": [
     { "x": 33212, "y": 32359, "floor": 7, "label": "Surface Spawns", "note": "4-5 above Werehayaenas" },
     { "x": 33125, "y": 32652, "floor": 7, "label": "Surface Spawns", "note": "4-5 next to Nomad Oasis" },
     { "x": 33125, "y": 32652, "floor": 7, "label": "Passage to Green Djinn's 1", "note": "4 on +1" },
@@ -300,6 +301,9 @@
     { "x": 31962, "y": 31898, "floor": 7, "label": "Crimson Court - Targuna", "note": "Head to +2 and take the purple flame portal to the fire cave. Dont forget to do the mission from Emiliana on +1" }
   ]},
   { "name": "Infernoid Blob", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernoid_Blob.gif", "loot": [], "spawns": [
+    { "x": 31962, "y": 31898, "floor": 7, "label": "Crimson Court - Targuna", "note": "Head to +2 and take the purple flame portal to the fire cave. Dont forget to do the mission from Emiliana on +1" }
+  ]},
+  { "name": "Infernoid Hound", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernoid_Hound.gif", "loot": [], "spawns": [
     { "x": 31962, "y": 31898, "floor": 7, "label": "Crimson Court - Targuna", "note": "Head to +2 and take the purple flame portal to the fire cave. Dont forget to do the mission from Emiliana on +1" }
   ]},
   { "name": "Infernoid Spiritual", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernoid_Spiritual.gif", "loot": [], "spawns": [
@@ -328,11 +332,13 @@
   ]},
   { "name": "Lizard Executioner", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Executioner.gif", "loot": [], "spawns": [
     { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
-    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
+    { "x": 32908, "y": 32822, "floor": 7, "label": "North of Chor - Port Hope", "note": "" }
   ]},
   { "name": "Lizard Henchman", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Henchman.gif", "loot": [], "spawns": [
     { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
-    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
+    { "x": 32908, "y": 32822, "floor": 7, "label": "North of Chor - Port Hope", "note": "" }
   ]},
   { "name": "Lizard Sentinel", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Sentinel.gif", "loot": [], "spawns": [
     { "x": 32952, "y": 32855, "floor": 7, "label": "Chor - Port Hope", "note": "" },
@@ -340,11 +346,13 @@
   ]},
   { "name": "Lizard Swordmaster", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Swordmaster.gif", "loot": [], "spawns": [
     { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
-    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
+    { "x": 32908, "y": 32822, "floor": 7, "label": "North of Chor - Port Hope", "note": "" }
   ]},
   { "name": "Lizard Templar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Templar.gif", "loot": [], "spawns": [
     { "x": 32952, "y": 32855, "floor": 7, "label": "Chor - Port Hope", "note": "" },
-    { "x": 33315, "y": 32675, "floor": 7, "label": "Forbidden Temple - Ankrahmun", "note": "" }
+    { "x": 33315, "y": 32675, "floor": 7, "label": "Forbidden Temple - Ankrahmun", "note": "" },
+    { "x": 32908, "y": 32822, "floor": 7, "label": "North of Chor - Port Hope", "note": "" }
   ]},
   { "name": "Mammoth", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mammoth.gif", "loot": [], "spawns": [
     { "x": 32230, "y": 31016, "floor": 7, "label": "Mammoth Shearing Factory - Svargrond", "note": "To get to the factory, Go 1 step below carpet in Svargrond, head north east" },
@@ -381,7 +389,7 @@
     { "x": 33307, "y": 32286, "floor": 7, "label": "Dark Pyramid - Darashia", "note": "Fastest access to them (most trafficed)" },
     { "x": 32491, "y": 31966, "floor": 7, "label": "Minotaurs - Kazordoon", "note": "Horned Fox rare boss also in this location" }
   ]},
-  { "name": "Monk", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk.gif", "loot": [], "spawns": [
+  { "name": "Monk", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk_(Creature).gif", "loot": [], "spawns": [
     { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Deeper Floors" },
     { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Few on various floors" },
     { "x": 33164, "y": 31638, "floor": 7, "label": "Hero Cave - Edron", "note": "Few on various floors" }
@@ -395,7 +403,7 @@
     { "x": 33018, "y": 32443, "floor": 7, "label": "Drefia - Darashia", "note": "" },
     { "x": 32461, "y": 32076, "floor": 7, "label": "Mount Sternum Undead Cave - Thais", "note": "" }
   ]},
-  { "name": "Nomad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad.gif", "loot": [], "spawns": [
+  { "name": "Nomad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad_(Basic).gif", "loot": [], "spawns": [
     { "x": 33205, "y": 32544, "floor": 7, "label": "Nomad Cave - Ankrahmun", "note": "" },
     { "x": 33237, "y": 32567, "floor": 7, "label": "Surface Spawns 1", "note": "Spread out around Oasis" },
     { "x": 33132, "y": 32661, "floor": 7, "label": "Surface Spawns 2", "note": "Spread out around Oasis" },
@@ -598,5 +606,20 @@
   { "name": "Wild Warrior", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Warrior.gif", "loot": [], "spawns": [
     { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
     { "x": 32643, "y": 32222, "floor": 7, "label": "Outlaw Camp - Venore", "note": "Scattered on surface" }
+  ]},
+  { "name": "Slime", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slime.gif", "loot": [], "spawns": [
+    { "x": 32649, "y": 32663, "floor": 7, "label": "South West - Tiquanda", "note": "Spread out in various sections" },
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "" },
+    { "x": 32356, "y": 32170, "floor": 7, "label": "Ancient Temple - Thais", "note": "" },
+    { "x": 32346, "y": 32364, "floor": 7, "label": "White Flower Temple - Thais", "note": "" }
+  ]},
+  { "name": "Mad Scientist", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mad_Scientist.gif", "loot": [], "spawns": [
+    { "x": 32887, "y": 31094, "floor": 7, "label": "Magician Quarter - Yalahar", "note": "Spread out into various sections and floors." },
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter", "note": "Scattered on surface and roofs" },
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1" }
+  ]},
+  { "name": "Pirate Marauder", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif", "loot": [], "spawns": [
+    { "x": 31994, "y": 32860, "floor": 7, "label": "Nagor", "note": "Nagor is accessed through The Shattered Isles Quest" },
+    { "x": 32534, "y": 31629, "floor": 7, "label": "The Cave - North of Carlin", "note": "" }
   ]}
 ]
