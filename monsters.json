@@ -434,7 +434,8 @@
     { "x": 33056, "y": 32030, "floor": 7, "label": "Orc Cave - Venore", "note": "" }
   ]},
   { "name": "Pirate Cook", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Cook.gif", "loot": [], "spawns": [
-    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." }
+    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." },
+    { "x": 32130, "y": 32563, "floor": 7, "label": "Goroma Beach", "note": "Mainly south" }
   ]},
   { "name": "Pirate Ghost", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Ghost.gif", "loot": [], "spawns": [
     { "x": 32097, "y": 32631, "floor": 7, "label": "Goroma", "note": "Scattered on surface" },
@@ -442,10 +443,12 @@
     { "x": 32156, "y": 32948, "floor": 7, "label": "Treasure Island - Liberty Bay ", "note": "" }
   ]},
   { "name": "Pirate Gunner", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Gunner.gif", "loot": [], "spawns": [
-    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." }
+    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." },
+    { "x": 32130, "y": 32563, "floor": 7, "label": "Goroma Beach", "note": "Mainly south" }
   ]},
   { "name": "Pirate Navigator", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif", "loot": [], "spawns": [
-    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." }
+    { "x": 33513, "y": 32720, "floor": 7, "label": "Aragonia", "note": "Accessible from Targuna." },
+    { "x": 32130, "y": 32563, "floor": 7, "label": "Goroma Beach", "note": "Mainly south" }
   ]},
   { "name": "Pirate Skeleton", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Skeleton.gif", "loot": [], "spawns": [
     { "x": 32097, "y": 32631, "floor": 7, "label": "Goroma", "note": "Scattered on surface" },
