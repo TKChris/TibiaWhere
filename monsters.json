@@ -70,7 +70,8 @@
   ]},
   { "name": "Centipede", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Centipede.gif", "loot": [], "spawns": [
     { "x": 32807, "y": 32542, "floor": 7, "label": "Between Port Hope & Banuta", "note": "Scattered on surface" },
-    { "x": 32910, "y": 32515, "floor": 7, "label": "In the northern part of Tiquanda", "note": "Near Kais (Blessing: Blood of the Mountain)" }
+    { "x": 32910, "y": 32515, "floor": 7, "label": "In the northern part of Tiquanda", "note": "Near Kais (Blessing: Blood of the Mountain)" },
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Chakoya Toolshaper", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Toolshaper.gif", "loot": [], "spawns": [
     { "x": 32301, "y": 31083, "floor": 7, "label": "Inukaya - Nibelor - Svargrond", "note": "To use the sled from Nibelor you must finish The Ice Islands Quest mission 5. You also need to carry Ham with you." },
@@ -110,12 +111,9 @@
     { "x": 32466, "y": 32939, "floor": 7, "label": "Laguna Islands", "note": "Scattered on all islands" }
   ]},
   { "name": "Crypt Shambler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Shambler.gif", "loot": [], "spawns": [
-    { "x": 33142, "y": 32838, "floor": 7, "label": "Ankrahmun Library Tomb", "note": "" },
+    { "x": 33316, "y": 31717, "floor": 7, "label": "Edron Cemetary", "note": "Can contain Rare boss, worth visiting" },
+    { "x": 33282, "y": 32743, "floor": 7, "label": "Stone Tomb - Ankrahmun", "note": "Spread out into various sections and floors." },
     { "x": 33233, "y": 32705, "floor": 7, "label": "Tarpit Tomb - Ankrahmun", "note": "1 square west of the top left corner of the center pool" },
-    { "x": 33255, "y": 32833, "floor": 7, "label": "Shadow Tomb - Ankrahmun", "note": "-2, -3, -4 scattered." },
-    { "x": 33027, "y": 32870, "floor": 7, "label": "Peninsula Tomb - Ankrahmun", "note": "-2, -3, -4 scattered." },
-    { "x": 33132, "y": 32641, "floor": 7, "label": "Oasis Tomb - Ankrahmun", "note": "" },
-    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
     { "x": 31931, "y": 32567, "floor": 7, "label": "Ramoa", "note": "Ramoa is accessed through The Shattered Isles Quest" },
     { "x": 32653, "y": 31675, "floor": 7, "label": "Hellgate - Ab'Dendriel", "note": "Run through the City past the last floor of Shadow Caves homes, the spawn contains 2 rare bosses, worth visiting." }
   ]},
@@ -207,7 +205,8 @@
   { "name": "Fire Devil", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Devil.gif", "loot": [], "spawns": [
     { "x": 32502, "y": 32041, "floor": 7, "label": "Magician Tower - Thais", "note": "Tower is located above Mount Sternum, west of postman office (2 on +2)" },
     { "x": 33255, "y": 32833, "floor": 7, "label": "Shadow Tomb - Ankrahmun", "note": "6 on -2, 5 on -4" },
-    { "x": 32097, "y": 32631, "floor": 7, "label": "Hellgorge - Goroma", "note": "About 19 spread on -1-4 floors" }
+    { "x": 32097, "y": 32631, "floor": 7, "label": "Hellgorge - Goroma", "note": "About 19 spread on -1-4 floors" },
+    { "x": 32594, "y": 32065, "floor": 7, "label": "Fire Devil Cave - Venore", "note": "-1 -2" }
   ]},
   { "name": "Frost Giant", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giant.gif", "loot": [], "spawns": [
     { "x": 32385, "y": 31269, "floor": 7, "label": "Jotunar", "note": "" },
@@ -507,7 +506,9 @@
   { "name": "Scorpion", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scorpion.gif", "loot": [], "spawns": [
     { "x": 33315, "y": 31728, "floor": 7, "label": "Graveyard - Edron", "note": "Use the North hole on the Outside next the water" },
     { "x": 33018, "y": 32443, "floor": 7, "label": "Drefia - Darashia", "note": "Scattered on surface and below" },
-    { "x": 33057, "y": 32436, "floor": 7, "label": "Plague Spike - Darashia", "note": "" }
+    { "x": 33282, "y": 32743, "floor": 7, "label": "Stone Tomb - Ankrahmun", "note": "" },
+    { "x": 33057, "y": 32436, "floor": 7, "label": "Plague Spike - Darashia", "note": "" },
+    { "x": 33174, "y": 32526, "floor": 7, "label": "Nomad Mountain - Darashia", "note": "Nomad Mountain is between Darashia, Drefia, Ankrahmun" }
   ]},
   { "name": "Sibang", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sibang.gif", "loot": [], "spawns": [
     { "x": 32807, "y": 32542, "floor": 7, "label": "Banuta", "note": "Scattered on surface and +1 & -1, -2" }
@@ -553,7 +554,7 @@
   { "name": "Swampling", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swampling.gif", "loot": [], "spawns": [
     { "x": 33338, "y": 31972, "floor": 7, "label": "Lair of the Treeling Witch - Cormaya/Edron", "note": "" },
     { "x": 32924, "y": 32148, "floor": 7, "label": "Salamander Cave - Venore", "note": "Right next to South gate entrence" },
-    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spitting Nettle, which takes a long time to complete." }
+    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spit Nettle, which takes a long time to complete." }
   ]},
   { "name": "Tarantula", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarantula.gif", "loot": [], "spawns": [
     { "x": 32726, "y": 32794, "floor": 7, "label": "Tiquanda/Tarantula Caves 1 - Port Hope", "note": "" },
@@ -578,7 +579,9 @@
   { "name": "Tiger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif", "loot": [], "spawns": [
     { "x": 32769, "y": 32660, "floor": 7, "label": "Tiquanda — West Surface", "note": "2-3 near pin" },
     { "x": 32850, "y": 32700, "floor": 7, "label": "Tiquanda — East Surface", "note": "2-3 near pin" },
-    { "x": 32319, "y": 32559, "floor": 7, "label": "Sabrehaven - Liberty Bay", "note": "Worth Checking, but not always there." }
+    { "x": 32319, "y": 32559, "floor": 7, "label": "Sabrehaven - Liberty Bay", "note": "Worth Checking, but not always there." },
+    { "x": 32837, "y": 32832, "floor": 7, "label": "Tiquanda Medusa Tower - Port Hope", "note": "2-3 tigers here also" },
+    { "x": 32753, "y": 32851, "floor": 7, "label": "Tiquanda", "note": "2-3 tigers here also" }
   ]},
   { "name": "Toad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Toad.gif", "loot": [], "spawns": [
     { "x": 32392, "y": 32943, "floor": 7, "label": "Laguna Islands", "note": "Requires / The Shattered Isles Quest / They are scattered on all islands" },
@@ -612,8 +615,8 @@
   ]},
   { "name": "Slime", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slime.gif", "loot": [], "spawns": [
     { "x": 32649, "y": 32663, "floor": 7, "label": "South West - Tiquanda", "note": "Spread out in various sections" },
-    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "" },
     { "x": 32356, "y": 32170, "floor": 7, "label": "Ancient Temple - Thais", "note": "" },
+    { "x": 33282, "y": 32743, "floor": 7, "label": "Stone Tomb - Ankrahmun", "note": "" },
     { "x": 32346, "y": 32364, "floor": 7, "label": "White Flower Temple - Thais", "note": "" }
   ]},
   { "name": "Mad Scientist", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mad_Scientist.gif", "loot": [], "spawns": [
@@ -623,6 +626,14 @@
   ]},
   { "name": "Pirate Marauder", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif", "loot": [], "spawns": [
     { "x": 31994, "y": 32860, "floor": 7, "label": "Nagor", "note": "Nagor is accessed through The Shattered Isles Quest" },
-    { "x": 32534, "y": 31629, "floor": 7, "label": "The Cave - North of Carlin", "note": "" }
+    { "x": 32534, "y": 31629, "floor": 7, "label": "The Cave - North of Carlin", "note": "" },
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "They are +1 on Docks, should have just enough for 60+ kill task" }
+  ]},
+  { "name": "Gazer", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gazer.gif", "loot": [], "spawns": [
+    { "x": 32159, "y": 32782, "floor": 7, "label": "Vandura Bonelord Cave - Liberty Bay", "note": "" },
+    { "x": 32653, "y": 31675, "floor": 7, "label": "Hellgate - Ab'Dendriel", "note": "Run through the City past the last floor of Shadow Caves homes, the spawn contains 2 rare bosses, worth visiting." }
+  ]},
+   { "name": "Spit Nettle", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spit_Nettle.gif", "loot": [], "spawns": [
+    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spit Nettle, which takes a long time to complete." }
   ]}
 ]
