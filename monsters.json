@@ -635,10 +635,5 @@
   ]},
    { "name": "Spit Nettle", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spit_Nettle.gif", "loot": [], "spawns": [
     { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spit Nettle, which takes a long time to complete." }
-  ]},
-  { "name": "Gozzler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gozzler.gif", "loot": [], "spawns": [
-    { "x": 32887, "y": 31094, "floor": 7, "label": "Magician Quarter - Yalahar", "note": "Spread out into various sections and floors." },
-    { "x": 32543, "y": 31290, "floor": 7, "label": "Beregar", "note": "Underneath Fenrock island, you can find the hidden city of Beregar." },
-    { "x": 33307, "y": 31999, "floor": 7, "label": "Farmine Mines - Cormaya/Farmine", "note": "The given coordinates is for Cormaya steamboat entrence, go down and steamboat to Farmine, then head north inside the mountain and use the right side cave." }
   ]}
 ]
