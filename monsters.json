@@ -265,8 +265,7 @@
   ]},
   { "name": "Goblin Assassin", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Assassin.gif", "loot": [], "spawns": [
     { "x": 32569, "y": 31803, "floor": 7, "label": "Femor Hills - Ab'dendriel", "note": " All floors" },
-    { "x": 33108, "y": 31850, "floor": 7, "label": "Goblin Cave - Edron", "note": "" },
-    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
+    { "x": 33108, "y": 31850, "floor": 7, "label": "Goblin Cave - Edron", "note": "" }
   ]},
   { "name": "Goblin Scavenger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Scavenger.gif", "loot": [], "spawns": [
     { "x": 32569, "y": 31803, "floor": 7, "label": "Femor Hills - Ab'dendriel", "note": " All floors" },
@@ -554,7 +553,7 @@
   { "name": "Swampling", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swampling.gif", "loot": [], "spawns": [
     { "x": 33338, "y": 31972, "floor": 7, "label": "Lair of the Treeling Witch - Cormaya/Edron", "note": "" },
     { "x": 32924, "y": 32148, "floor": 7, "label": "Salamander Cave - Venore", "note": "Right next to South gate entrence" },
-    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spit Nettle, which takes a long time to complete." }
+    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this" }
   ]},
   { "name": "Tarantula", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarantula.gif", "loot": [], "spawns": [
     { "x": 32726, "y": 32794, "floor": 7, "label": "Tiquanda/Tarantula Caves 1 - Port Hope", "note": "" },
@@ -562,9 +561,10 @@
     { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
     { "x": 32916, "y": 31516, "floor": 7, "label": "Vengoth - Grey Island", "note": "I usually run this for multiple charms" }
   ]},
-  { "name": "Terramite", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Termite.gif", "loot": [], "spawns": [
+  { "name": "Terramite", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terramite.gif", "loot": [], "spawns": [
     { "x": 33196, "y": 31545, "floor": 7, "label": "Terramite Caves - Zao", "note": "" },
-    { "x": 33115, "y": 32483, "floor": 7, "label": "Terramite Caves - Darashia", "note": "" }
+    { "x": 33115, "y": 32483, "floor": 7, "label": "Terramite Caves - Darashia", "note": "" },
+    { "x": 33115, "y": 32483, "floor": 7, "label": "Terramite Breeding Tunnels - Darashia", "note": "" }
   ]},
   { "name": "Terror Bird", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terror_Bird.gif", "loot": [], "spawns": [
     { "x": 32629, "y": 32769, "floor": 7, "label": "Greater Port Hope Area", "note": "Run circles around the city and you will see them in North, East, and South Tiquanda" },
@@ -635,5 +635,10 @@
   ]},
    { "name": "Spit Nettle", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spit_Nettle.gif", "loot": [], "spawns": [
     { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spit Nettle, which takes a long time to complete." }
+  ]},
+  { "name": "Gozzler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gozzler.gif", "loot": [], "spawns": [
+    { "x": 32887, "y": 31094, "floor": 7, "label": "Magician Quarter - Yalahar", "note": "Spread out into various sections and floors." },
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Beregar", "note": "Underneath Fenrock island, you can find the hidden city of Beregar." },
+    { "x": 33307, "y": 31999, "floor": 7, "label": "Farmine Mines - Cormaya/Farmine", "note": "The given coordinates is for Cormaya steamboat entrence, go down and steamboat to Farmine, then head north inside the mountain and use the right side cave." }
   ]}
 ]
