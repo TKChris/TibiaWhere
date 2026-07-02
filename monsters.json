@@ -634,6 +634,14 @@
     { "x": 32653, "y": 31675, "floor": 7, "label": "Hellgate - Ab'Dendriel", "note": "Run through the City past the last floor of Shadow Caves homes, the spawn contains 2 rare bosses, worth visiting." }
   ]},
    { "name": "Spit Nettle", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spit_Nettle.gif", "loot": [], "spawns": [
-    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "I usually run this, because you can catch Spit Nettle, which takes a long time to complete." }
+    { "x": 32886, "y": 32590, "floor": 7, "label": "Tiquanda Laboratory - Port Hope", "note": "Small, yet its the biggest spawn." }
+  ]},
+   { "name": "Troll Champion", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll_Champion.gif", "loot": [], "spawns": [
+    { "x": 33107, "y": 31845, "floor": 7, "label": "Troll-Goblin Peninsula - Edron", "note": "" },
+    { "x": 32663, "y": 31970, "floor": 7, "label": "Troll Den - Kazordoon", "note": "" }
+  ]},
+   { "name": "Orc Rider", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Rider.gif", "loot": [], "spawns": [
+    { "x": 32930, "y": 31774, "floor": 7, "label": "Ulderek's Rock - Kazordoon", "note": "Inside the Orc Kings chambers" },
+    { "x": 32324, "y": 32039, "floor": 7, "label": "Orc Peninsula - Carlin", "note": "Small, yet its the biggest spawn, i usually log at stairs and revisit it through the day, most people skip this." }
   ]}
 ]
