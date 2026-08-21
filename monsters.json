@@ -41,7 +41,8 @@
     { "x": 33117, "y": 31781, "floor": 7, "label": "Edron Troll Cave", "note": "Located -2" },
     { "x": 32643, "y": 32222, "floor": 7, "label": "Outlaw Camp - Venore", "note": "Scattered on surface" },
     { "x": 32360, "y": 32371, "floor": 7, "label": "White Flower Temple - Thais", "note": "Its to the east right near the temple, stairs down." },
-    { "x": 32754, "y": 31928, "floor": 7, "label": "Poacher Caves - Venore", "note": "-2 -3, & -4 in other cave. Get to Poacher cave near Lukosch at Kazordoon Cart system " }
+    { "x": 32754, "y": 31928, "floor": 7, "label": "Poacher Caves - Venore", "note": "-2 -3, & -4 in other cave. Get to Poacher cave near Lukosch at Kazordoon Cart system " },
+    { "x": 32969, "y": 31730, "floor": 7, "label": "Ulderek's Rock - Kazordoon", "note": "Inside the caves north, inside of the castle" }
   ]},
   { "name": "Blood Crab", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Crab.gif", "loot": [], "spawns": [
     { "x": 32392, "y": 32943, "floor": 7, "label": "Laguna Islands", "note": "Located in -2, -3 " },
@@ -286,9 +287,9 @@
   { "name": "Hyaena", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hyaena.gif", "loot": [], "spawns": [
     { "x": 33212, "y": 32359, "floor": 7, "label": "Surface Spawns", "note": "4-5 above Werehayaenas" },
     { "x": 33125, "y": 32652, "floor": 7, "label": "Surface Spawns", "note": "4-5 next to Nomad Oasis" },
-    { "x": 33125, "y": 32652, "floor": 7, "label": "Passage to Green Djinn's 1", "note": "4 on +1" },
-    { "x": 33125, "y": 32652, "floor": 7, "label": "Passage to Green Djinn's 2", "note": "4 on +2" },
-    { "x": 33125, "y": 32652, "floor": 7, "label": "Passage to Green Djinn's 3", "note": "4 on +1" },
+    { "x": 33101, "y": 32658, "floor": 7, "label": "Passage to Green Djinn's 1", "note": "" },
+    { "x": 33101, "y": 32658, "floor": 7, "label": "Passage to Green Djinn's 2", "note": "4 on +2" },
+    { "x": 33101, "y": 32658, "floor": 7, "label": "Passage to Green Djinn's 3", "note": "4 on +1" },
     { "x": 33208, "y": 32580, "floor": 7, "label": "Surface Spawns", "note": "3-4 Above Ruins" }
   ]},
   { "name": "Insectoid Worker", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insectoid_Worker.gif", "loot": [], "spawns": [
@@ -398,8 +399,7 @@
     { "x": 33255, "y": 32833, "floor": 7, "label": "Shadow Tomb - Ankrahmun", "note": "Spread out into various sections and floors." },
     { "x": 33027, "y": 32870, "floor": 7, "label": "Peninsula Tomb - Ankrahmun", "note": "Spread out into various sections and floors." },
     { "x": 33132, "y": 32641, "floor": 7, "label": "Oasis Tomb - Ankrahmun", "note": "Spread out into various sections and floors." },
-    { "x": 33018, "y": 32443, "floor": 7, "label": "Drefia - Darashia", "note": "" },
-    { "x": 32461, "y": 32076, "floor": 7, "label": "Mount Sternum Undead Cave - Thais", "note": "" }
+    { "x": 33315, "y": 31728, "floor": 7, "label": "Graveyard - Edron", "note": "Use the North hole on the Outside next the water" }
   ]},
   { "name": "Nomad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad_(Basic).gif", "loot": [], "spawns": [
     { "x": 33205, "y": 32544, "floor": 7, "label": "Nomad Cave - Ankrahmun", "note": "" },
@@ -461,8 +461,7 @@
     { "x": 32354, "y": 31057, "floor": 7, "label": "Inukaya - Nibelor - Svargrond", "note": "Biggest Spawn" },
     { "x": 32099, "y": 31245, "floor": 7, "label": "Surface Spawns 1", "note": "2 Polar Bears" },
     { "x": 32043, "y": 31271, "floor": 7, "label": "Surface Spawns 2", "note": "5-6 Polar bears on the bridge" },
-    { "x": 32025, "y": 31258, "floor": 7, "label": "Surface Spawns 3", "note": "2-3 more infront of Bittermor" },
-    { "x": 32075, "y": 31669, "floor": 7, "label": "Ice Islands - Carlin", "note": "Very few on Folda, Vega, Senja" }
+    { "x": 32025, "y": 31258, "floor": 7, "label": "Surface Spawns 3", "note": "2-3 more infront of Bittermor" }
   ]},
   { "name": "Quara Mantassin Scout", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Mantassin.gif", "loot": [], "spawns": [
     { "x": 32208, "y": 32887, "floor": 7, "label": "Quara Grotto - Liberty Bay", "note": "" },
@@ -478,7 +477,8 @@
     { "x": 32505, "y": 32283, "floor": 7, "label": "Wolf Den - Thais", "note": "" }
   ]},
   { "name": "Rorc", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rorc.gif", "loot": [], "spawns": [
-    { "x": 32802, "y": 31796, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32802, "y": 31796, "floor": 7, "label": "Rorc Plains", "note": "On all the sand spots 3-5 per spot." },
+    { "x": 32648, "y": 31732, "floor": 7, "label": "Forsaken Mine - Ab'Dendriel", "note": "Worth Checking, but not always there." }
   ]},
   { "name": "Rotworm", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif", "loot": [], "spawns": [
     { "x": 33309, "y": 32329, "floor": 7, "label": "Darashia Rotworm Caves - 1", "note": "" },
@@ -643,5 +643,16 @@
    { "name": "Orc Rider", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Rider.gif", "loot": [], "spawns": [
     { "x": 32930, "y": 31774, "floor": 7, "label": "Ulderek's Rock - Kazordoon", "note": "Inside the Orc Kings chambers" },
     { "x": 32324, "y": 32039, "floor": 7, "label": "Orc Peninsula - Carlin", "note": "Small, yet its the biggest spawn, i usually log at stairs and revisit it through the day, most people skip this." }
+  ]},
+    { "name": "Witch", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Witch.gif", "loot": [], "spawns": [
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "-2 north and -2 south east" }
+  ]},
+   { "name": "Lizard Magician", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Magician.gif", "loot": [], "spawns": [
+    { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
+    { "x": 32908, "y": 32822, "floor": 7, "label": "North of Chor - Port Hope", "note": "" }
+  ]},
+   { "name": "Deepling Worker", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Worker.gif", "loot": [], "spawns": [
+    { "x": 33514, "y": 31324, "floor": 7, "label": "Grey Island Beach ", "note": "Access to this area is given through the Liquid Black Quest." }
   ]}
 ]
