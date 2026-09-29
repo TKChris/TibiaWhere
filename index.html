@@ -705,9 +705,9 @@ function selectMonsterHeader(monsterName) {
 }
 
 // ── Go to individual spawn ─────────────────────────────────────────
-function goToSpawn(monsterName, spawnIndex) {
+function goToSpawn(monsterName, spawnIndex, keepList = false) {
   activeSpawnKey = monsterName + '-' + spawnIndex;
-  selectedMonster = monsterName;
+  if (!keepList) selectedMonster = monsterName;
 
   const monster = monsters.find(m => m.name === monsterName);
   if (!monster) return;
@@ -797,7 +797,7 @@ document.getElementById('search').addEventListener('keydown', function (e) {
   }
 
   const { monsterName, spawnIndex } = allSpawns[keyboardIndex];
-  goToSpawn(monsterName, spawnIndex);
+  goToSpawn(monsterName, spawnIndex, true);
 });
 
 // ── Load data ──────────────────────────────────────────────────────
