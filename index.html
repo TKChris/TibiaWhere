@@ -666,7 +666,7 @@ function renderList(query) {
       if (bounds.length === 1) map.setView(bounds[0], 0);
       else if (bounds.length > 1) map.fitBounds(L.latLngBounds(bounds), { padding: [60, 60] });
   }
-  } else {
+  } else if (!activeSpawnKey) {
     markers.forEach(m => map.removeLayer(m));
     markers = [];
   }
@@ -740,7 +740,7 @@ function goToSpawn(monsterName, spawnIndex, keepList = false) {
   renderList(q);
 
   // Open popup on active marker
-  markers[spawnIndex].openPopup();
+   if (markers[spawnIndex]) markers[spawnIndex].openPopup();
 }
 
 // ── Search input ───────────────────────────────────────────────────
