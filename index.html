@@ -599,6 +599,7 @@ let monsters = [];
 let markers  = [];
 let activeSpawnKey = null; // "MonsterName-spawnIndex"
 let selectedMonster = null; // when a monster header is clicked
+let keyboardIndex = -1; // current keyboard navigation index (-1 = none)
 
 // ── Render sidebar list ────────────────────────────────────────────
 function renderList(query) {
@@ -746,6 +747,7 @@ function goToSpawn(monsterName, spawnIndex) {
 document.getElementById('search').addEventListener('input', function () {
   activeSpawnKey = null;
   selectedMonster = null;
+  keyboardIndex = -1;
   if (!this.value) {
     document.querySelector('.sidebar').classList.remove('mobile-open');
     history.replaceState(null, '', window.location.pathname);
@@ -753,6 +755,49 @@ document.getElementById('search').addEventListener('input', function () {
     history.replaceState(null, '', `?q=${encodeURIComponent(this.value)}`);
   }
   renderList(this.value);
+});
+
+// ── Keyboard navigation ────────────────────────────────────────────
+document.getElementById('search').addEventListener('keydown', function (e) {
+  if (!['ArrowDown', 'ArrowUp', 'Escape'].includes(e.key)) return;
+  e.preventDefault();
+
+  const q = this.value.trim().toLowerCase();
+  if (!q) return;
+
+  // Build flat list of all spawn entries across all matching monsters
+  const filtered = monsters.filter(m =>
+    (m.name.toLowerCase().includes(q) ||
+    m.spawns.some(s => s.city && s.city.toLowerCase().includes(q))) &&
+    m.spawns.some(s => s.x !== 0 && s.y !== 0)
+  );
+
+  // Flatten to array of {monsterName, spawnIndex}
+  const allSpawns = [];
+  filtered.forEach(m => {
+    m.spawns.forEach((s, i) => {
+      if (s.x !== 0 && s.y !== 0) {
+        allSpawns.push({ monsterName: m.name, spawnIndex: i });
+      }
+    });
+  });
+
+  if (!allSpawns.length) return;
+
+  if (e.key === 'Escape') {
+    keyboardIndex = -1;
+    this.focus();
+    return;
+  }
+
+  if (e.key === 'ArrowDown') {
+    keyboardIndex = Math.min(keyboardIndex + 1, allSpawns.length - 1);
+  } else if (e.key === 'ArrowUp') {
+    keyboardIndex = Math.max(keyboardIndex - 1, 0);
+  }
+
+  const { monsterName, spawnIndex } = allSpawns[keyboardIndex];
+  goToSpawn(monsterName, spawnIndex);
 });
 
 // ── Load data ──────────────────────────────────────────────────────
