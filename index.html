@@ -10,16 +10,19 @@
 
   HOW TO ADD A MONSTER:
   Open monsters.json and follow this pattern:
-  {
-    "name": "Rotworm",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif",
-    "spawns": [
-      { "x": 32369, "y": 32450, "floor": 7, "label": "Rookgaard Caves" }
-    ]
-  }
+   
+  { "name": "Deepling Worker", "image": "/images/Deepling_Worker.gif", "loot": [], "spawns": [
+    { "x": 33514, "y": 31324, "floor": 7, "label": "Grey Island Beach ", "note": "Access to this area is given through the Liquid Black Quest." }
+  ]}
+
+  1. Monster gifs are downloaded from https://tibia.fandom.com/wiki/Main_Page
+  2. Save gif to repo folder downloaded through ex. github desktop
+  3. take the X,Y cordinates from bottom of spawn location (highlighted blue text HERE) on monster page from tibia wiki
+  4. Insers that into the Coordinate Converter, located in the repo folder on your pc.
+  5. Get the copy paste from Coordinate Converter and paste the line to monsters.json.
 
   COORDINATES:
-  Get X,Y from tibiamaps.io URL bar e.g. #32369,32450,7
+  Get X,Y from Tibia Wiki URL bar e.g. #32369,32450,7
 
   KNOWN COMMENTED OUT CODE:
 
@@ -42,7 +45,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TibiaWhere — Beginner Task Finder</title>
-
+  <link rel="icon" type="image/x-icon" href="TibiaWhereFavicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
