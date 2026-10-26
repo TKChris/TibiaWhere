@@ -3,7 +3,7 @@
 A fan-made interactive map for finding monster spawn locations in Tibia.
 
 ## Features
-- Search for monsters by name
+- Search for monsters in the Beginner Weekly tasks by name
 - Click a spawn entry to jump to the exact location on the map
 - Coordinate data sourced from TibiaWiki
 
@@ -11,11 +11,9 @@ A fan-made interactive map for finding monster spawn locations in Tibia.
 Open `monsters.json` and follow this pattern:
 
 ```json
-{
-  "name": "Rotworm",
-  "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif",
-  "spawns": [
-    { "x": 32369, "y": 32450, "floor": 7, "label": "Rookgaard Caves" }
+{ "name": "Crab", "image": "/images/Crab.gif", "loot": [], "spawns": [
+    { "x": 32138, "y": 32560, "floor": 7, "label": "Goroma Beach", "note": "Goroma before the underground passage onto the vulcano" },
+    { "x": 32389, "y": 32943, "floor": 7, "label": "Shattered Isles", "note": "Access is gained through The Shattered Isles Quest" }
   ]
 }
 ```

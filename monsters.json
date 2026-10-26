@@ -112,7 +112,7 @@
     { "x": 32466, "y": 32939, "floor": 7, "label": "Laguna Islands", "note": "Scattered on all islands" }
   ]},
   { "name": "Crypt Shambler", "image": "/images/Crypt_Shambler.gif", "loot": [], "spawns": [
-    { "x": 33316, "y": 31717, "floor": 7, "label": "Edron Cemetary", "note": "Can contain Rare boss, worth visiting" },
+    { "x": 33316, "y": 31726, "floor": 7, "label": "Edron Cemetary", "note": "Use the North hole on the Outside next the water" },
     { "x": 33282, "y": 32743, "floor": 7, "label": "Stone Tomb - Ankrahmun", "note": "Spread out into various sections and floors." },
     { "x": 33233, "y": 32705, "floor": 7, "label": "Tarpit Tomb - Ankrahmun", "note": "1 square west of the top left corner of the center pool" },
     { "x": 31931, "y": 32567, "floor": 7, "label": "Ramoa", "note": "Ramoa is accessed through The Shattered Isles Quest" },
@@ -654,5 +654,10 @@
   ]},
   { "name": "Deepling Worker", "image": "/images/Deepling_Worker.gif", "loot": [], "spawns": [
     { "x": 33514, "y": 31324, "floor": 7, "label": "Grey Island Beach ", "note": "Access to this area is given through the Liquid Black Quest." }
+  ]},
+  { "name": "Crab", "image": "/images/Crab.gif", "loot": [], "spawns": [
+    { "x": 32138, "y": 32560, "floor": 7, "label": "Goroma Beach", "note": "Goroma before the underground passage onto the vulcano" },
+    { "x": 32389, "y": 32943, "floor": 7, "label": "Shattered Isles", "note": "Access is gained through The Shattered Isles Quest" }
   ]}
+  
 ]
